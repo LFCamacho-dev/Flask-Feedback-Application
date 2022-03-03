@@ -18,9 +18,7 @@ if ENV == 'dev':
     app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://postgres:{DB_PASSWORD}@127.0.0.1:5432/lexus'
 else:
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://mawwuwqivzcjbj:\
-      d2039271195b69d5a3ac7f391a74284e43fb2169f0948e3892362963dca0108d\
-        @ec2-54-157-160-218.compute-1.amazonaws.com:5432/d3ndd63t5kbcn6"
+    app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://smzjpppvfdecho:8d4f1604479e30ffa593ef09b65b1746373d2322eb07bececfcf65cd7178a669@ec2-3-225-79-57.compute-1.amazonaws.com:5432/d98q37bbd3dcer"
 # endregion
 
 app.config['SECRET_KEY'] = "fasdkfjaldskfufjasliasdfasdfkjdh"
